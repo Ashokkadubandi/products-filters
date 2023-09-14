@@ -1,0 +1,59 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.group-details-head {
+  font-family: Roboto;
+  font-size: 25;
+  color: #0f172a;
+  font-weight: bold;
+}
+.category-link {
+  list-style-type: none;
+  padding-bottom: 1px;
+}
+.category-name {
+  font-family: Roboto;
+  font-size: 22px;
+  color: #64748b;
+  font-weight: 500;
+  cursor: pointer;
+}
+.category-active {
+  color: #0967d2;
+}
+.rating-link {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.rating-image {
+  height: 28px;
+  width: 150px;
+}
+.and-up {
+  padding-left: 8px;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #64748b;
+}
+.search-inp {
+  background: #ffffff;
+}
+.search-input {
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  background: transparent;
+}
